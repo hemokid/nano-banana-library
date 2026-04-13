@@ -1,0 +1,8 @@
+Recreate this axonometric drawing @img1 as a hyper-realistic
+render with accurate materials and colors. Keep every detail
+exactly the same, do not modify the geometry, proportions,
+furniture, or people. Apply realistic glass, concrete, wood,
+greenery, and interior finishes while preserving the original
+design. Maintain a pure white background with no environment
+or sky, so the focus remains entirely on the building. Ultradetailed, photorealistic lighting, soft shadows, clean
+professional rendering

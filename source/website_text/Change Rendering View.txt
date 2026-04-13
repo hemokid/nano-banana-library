@@ -1,0 +1,11 @@
+Prompt:
+
+Change the angle of view of this architectural rendering. Generate a new perspective from [desired angle], keeping the original materials, lighting, and style consistent. Maintain correct proportions and architectural detailing. The scene should feel cohesive and realistic, with shadows, textures, and environment matching the new camera angle.
+
+[desired angle]
+
+ Eye-level / street view
+ Bird’s-eye / aerial
+Oblique / 45-degree
+Front elevation / side view / corner perspective
+Specific direction (e.g., “from southwest corner facing northeast”)

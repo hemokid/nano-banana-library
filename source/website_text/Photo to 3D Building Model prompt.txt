@@ -1,0 +1,9 @@
+Based on this architectural photograph, generate a high-fidelity 3D building model inthe style of "3d print building model." Key Requirements: Aim for a realistic look, preserving the main structure and texture details of thebuilding, but stylized for a game. Emphasize realistic lighting and shadow effects. Use a 45-degree top-down perspective to showcase the building's three-dimensionality. Materials should be clearly defined, such as reflective glass and metallic surfaces. It should look like a high-quality 3D render suitable for a game engine. White background. 
+
+ 
+
+Generate a downloadable 3D model from an image using an image-to-3D website:
+
+https://gen.hexa3d.io/
+
+https://www.meshy.ai/

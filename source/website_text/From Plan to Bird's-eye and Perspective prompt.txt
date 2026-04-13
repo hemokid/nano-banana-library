@@ -1,0 +1,11 @@
+Prompt 1
+
+Turn this landscape plan for a residential community in Barcelona into a 3D bird’s-eye view architectural rendering. Emphasize the aerial perspective with realistic depth, scale, and spatial hierarchy. The buildings feature red tile roofs typical of Barcelona architecture. Surround the site with detailed urban context—gridded streets, mid-rise Mediterranean-style buildings, and plazas. Add photorealistic textures, soft natural daylight, tree canopies, paving, and street elements. The rendering should feel like a high-resolution aerial photo but in clean 3D visualization style, suitable for urban design presentation.
+
+Prompt 2
+
+Good, Create a eye level perspective view from the courtyard, looking toward the building, with the landscape design area in the foreground.
+
+Prompt 3:
+
+Create a 3D interior rendering of my apartment based on the provided floor plan. Use the camera angle indicated by the red arrow for perspective. The design style should be Modern Scandinavian, featuring natural materials, clean lines, white walls, warm wood accents, and minimalist decor. Furnish the space with realistic IKEA furniture—including sofas, dining set, storage units, and lighting fixtures. Add soft textiles, cozy lighting, and green plants to complete the look. The image should be composed in 11x17 landscape ratio, with natural daylight and soft shadows to enhance realism. Maintain accurate spatial proportions from the floor plan.

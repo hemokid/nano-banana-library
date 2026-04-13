@@ -1,0 +1,1 @@
+Prompt: Replace the building facade in the original photo with the facade texture shown in image 2. Maintain the same perspective and lighting. Match the new texture naturally onto the building, ensuring it blends realistically with the structure, shadows, and surrounding context.

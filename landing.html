@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nano Banana — Architecture Prompt Library for NanoBanana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="app/landing.css" />
+</head>
+<body>
+
+  <!-- ── Nav ──────────────────────────────────────────────────────────── -->
+  <nav id="lp-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="landing.html">
+        <span class="nav-brand-name">Nano Banana</span>
+        <span class="nav-brand-tag">Architecture Prompt Library</span>
+      </a>
+      <a class="nav-cta" href="app/index.html">Browse the Library →</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <div class="hero-text">
+          <div class="hero-eyebrow">Built for NanoBanana · Architecture workflows</div>
+          <h1 class="hero-title">
+            Every architectural output.<br />
+            <em>Properly prompted.</em>
+          </h1>
+          <p class="hero-sub">
+            A focused prompt library for architects — 37 tested, ready-to-copy entries organized by what they produce, each paired with a before/after example.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="app/index.html">
+              Browse the Library
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn-ghost" href="#categories">See categories</a>
+          </div>
+
+          <div class="hero-stat-row">
+            <div class="hero-stat">
+              <span class="hero-stat-num">37+</span>
+              <span class="hero-stat-label">Curated prompts</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">8</span>
+              <span class="hero-stat-label">Output categories</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">7</span>
+              <span class="hero-stat-label">Variant groups</span>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-stat-num">35+</span>
+              <span class="hero-stat-label">Example images</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-col">
+          <div class="hero-image-wrap">
+            <img src="landing-assets/hero-image.png" alt="Architectural drawing of the Nano Banana" class="hero-img" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Gallery strip ────────────────────────────────────────────────── -->
+  <section id="gallery">
+    <div class="gallery-label">From the library</div>
+    <div class="gallery-scroll">
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/sketch to image 1.png" alt="Sketch to photorealistic render" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Renderings</div>
+          <div class="gallery-card-title">Sketch to Photorealistic Render</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/Change Season or Atmosphere.png" alt="Change season or atmosphere" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Post-processing</div>
+          <div class="gallery-card-title">Change Season or Atmosphere</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/PhotoPlan to Isometric Diagram 1.png" alt="Plan to isometric diagram" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">3D</div>
+          <div class="gallery-card-title">Plan to Isometric Diagram</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/urban-porosity-diagram.png" alt="Urban porosity diagram" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Urban Planning</div>
+          <div class="gallery-card-title">Urban Porosity Diagram</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/Photo to Elevation (or CAD) 2.png" alt="Photo to elevation drawing" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Plans</div>
+          <div class="gallery-card-title">Photo to Elevation or CAD</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/interior-style-scandinavian.png" alt="Interior style transformation" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Renderings</div>
+          <div class="gallery-card-title">Interior Style Transformation</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/urban-tod-rendering.png" alt="Transit-oriented development" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Urban Planning</div>
+          <div class="gallery-card-title">Transit-Oriented Development</div>
+        </div>
+      </div>
+
+      <div class="gallery-card">
+        <img class="gallery-card-img" src="source/website_images/Rendering to Architectural Line Drawing.png" alt="Rendering to line drawing" loading="lazy" />
+        <div class="gallery-card-body">
+          <div class="gallery-card-cat">Illustrations</div>
+          <div class="gallery-card-title">Rendering to Line Drawing</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Category showcase ─────────────────────────────────────────────── -->
+  <section id="categories" class="section">
+    <div class="container">
+      <div class="section-label">What's inside</div>
+      <h2 class="section-heading">Organized by what you want to produce</h2>
+      <p class="section-sub">Eight categories covering every architectural output type — from photorealistic renders to urban analysis diagrams. Each category groups prompts by result, not by keyword. Closely related prompts appear as tabs on a single card, so you can compare variations without losing your place.</p>
+
+      <div class="cat-grid">
+
+        <div class="cat-tile">
+          <img class="cat-tile-img" src="source/website_images/sketch to image 1.png" alt="Renderings" loading="lazy" />
+          <div class="cat-tile-overlay"></div>
+          <div class="cat-tile-body">
+            <div class="cat-tile-name">Renderings</div>
+            <div class="cat-tile-count">Exterior · Interior · Style · Seasonal</div>
+          </div>
+        </div>
+
+        <div class="cat-tile">
+          <img class="cat-tile-img" src="source/website_images/PhotoPlan to Isometric Diagram 2.png" alt="3D" loading="lazy" />
+          <div class="cat-tile-overlay"></div>
+          <div class="cat-tile-body">
+            <div class="cat-tile-name">3D</div>
+            <div class="cat-tile-count">Isometric · Bird's-Eye · Exploded</div>
+          </div>
+        </div>
+
+        <div class="cat-tile">
+          <img class="cat-tile-img" src="source/website_images/urban-clay-context.png" alt="Urban Planning" loading="lazy" />
+          <div class="cat-tile-overlay"></div>
+          <div class="cat-tile-body">
+            <div class="cat-tile-name">Urban Planning</div>
+            <div class="cat-tile-count">Clay Model · Porosity · TOD · Plaza</div>
+          </div>
+        </div>
+
+        <div class="cat-tile">
+          <img class="cat-tile-img" src="source/website_images/Photo to Elevation (or CAD) 3.png" alt="Plans" loading="lazy" />
+          <div class="cat-tile-overlay"></div>
+          <div class="cat-tile-body">
+            <div class="cat-tile-name">Plans</div>
+            <div class="cat-tile-count">Elevation · CAD Linework · Construction Doc</div>
+          </div>
+        </div>
+
+        <div class="cat-tile">
+          <img class="cat-tile-img" src="source/website_images/urban-section-corridor.png" alt="Sections" loading="lazy" />
+          <div class="cat-tile-overlay"></div>
+          <div class="cat-tile-body">
+            <div class="cat-tile-name">Sections</div>
+            <div class="cat-tile-count">Section to 3D · Urban Street Section</div>
+          </div>
+        </div>
+
+        <div class="cat-tile">
+          <img class="cat-tile-img" src="source/website_images/Rendering to Architectural Line Drawing.png" alt="Illustrations" loading="lazy" />
+          <div class="cat-tile-overlay"></div>
+          <div class="cat-tile-body">
+            <div class="cat-tile-name">Illustrations</div>
+            <div class="cat-tile-count">Line Drawing · Urban Section · Hand-Rendered</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Value props ───────────────────────────────────────────────────── -->
+  <section id="value" class="section">
+    <div class="container">
+      <div class="section-label">Why it works</div>
+      <h2 class="section-heading">Better than a generic prompt list</h2>
+      <p class="section-sub" style="margin-bottom:48px;">Most AI prompts for architecture are written once and never verified. These are tested, cleaned, and illustrated — so you know what you're getting before you use one.</p>
+      <div class="value-grid">
+
+        <div class="value-item">
+          <div class="value-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path d="M9 2L11.39 7.26L17 8.18L13 12.08L13.97 17.67L9 15.14L4.03 17.67L5 12.08L1 8.18L6.61 7.26L9 2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="value-title">Tested and cleaned</div>
+          <div class="value-desc">Every prompt has been tested for output quality and cleaned of filler. What you copy is what the model was designed to receive — not a rough draft.</div>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <rect x="2" y="2" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="10" y="2" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="2" y="10" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="10" y="10" width="6" height="6" rx="1" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="value-title">See before you copy</div>
+          <div class="value-desc">Every card shows the input and output side by side. You know exactly what transformation a prompt produces before you use it.</div>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <rect x="3" y="3" width="10" height="12" rx="1.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M7 3v12M11 6H7M11 9H7M11 12H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="9" y="8" width="7" height="7" rx="1" fill="var(--accent-light)" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M11 11.5h3M11 13h2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="value-title">Zero reformatting</div>
+          <div class="value-desc">Prompts are formatted and ready. Copy from the card or the detail panel — paste directly into NanoBanana. Nothing to rewrite.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Prompt example ────────────────────────────────────────────────── -->
+  <section id="example" class="section">
+    <div class="container">
+      <div class="example-inner">
+
+        <div class="example-img-wrap">
+          <img src="source/website_images/urban-porosity-diagram.png" alt="Urban Porosity Diagram example output" />
+        </div>
+
+        <div class="example-text">
+          <div>
+            <div class="section-label">Example prompt</div>
+            <h2 class="section-heading" style="font-size:26px;margin-bottom:10px;">Use it as-is. Or make it yours.</h2>
+            <p style="font-size:13.5px;color:var(--text-muted);line-height:1.7;">Prompts are cleaned for clarity and tested for output quality. The original source prompt is always one click away — for full transparency and adaptation.</p>
+          </div>
+
+          <div class="example-prompt-block">
+            <div class="example-prompt-label">Prompt — Urban Porosity Diagram</div>
+            <div class="example-prompt-text" id="ex-prompt">Visualize urban porosity using semi-transparent building masses. Highlight pedestrian permeability in soft red overlays. Streets remain neutral. Clean axonometric view. No perspective distortion.</div>
+          </div>
+
+          <div class="example-meta">
+            <span class="example-tag">Urban Planning</span>
+            <span class="example-tag">Axonometric</span>
+            <span class="example-tag">Permeability</span>
+            <span class="example-tag">Diagram</span>
+          </div>
+
+          <button class="example-copy-btn" id="ex-copy-btn">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><rect x="4" y="4" width="8" height="8" rx="1.2" stroke="currentColor" stroke-width="1.4"/><path d="M3 9H2a1 1 0 01-1-1V2a1 1 0 011-1h6a1 1 0 011 1v1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            Copy prompt
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ───────────────────────────────────────────────────────────── -->
+  <section id="cta">
+    <div class="container">
+      <div class="cta-inner">
+        <h2 class="cta-heading">The library is open.<br />No signup required.</h2>
+        <p class="cta-sub">Browse every category, copy any prompt, see every result — directly in your browser.</p>
+        <a class="cta-btn" href="app/index.html">
+          Open the Library
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────────────────── -->
+  <footer id="lp-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-brand">Nano Banana</span>
+        <span class="footer-note">Architecture Prompt Library — internal preview</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Copy prompt button on landing page
+    const copyBtn = document.getElementById('ex-copy-btn');
+    const promptText = document.getElementById('ex-prompt').textContent;
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(promptText).then(() => {
+        const orig = copyBtn.textContent;
+        copyBtn.textContent = 'Copied!';
+        copyBtn.classList.add('copied');
+        setTimeout(() => {
+          copyBtn.innerHTML = `<svg width="13" height="13" viewBox="0 0 13 13" fill="none"><rect x="4" y="4" width="8" height="8" rx="1.2" stroke="currentColor" stroke-width="1.4"/><path d="M3 9H2a1 1 0 01-1-1V2a1 1 0 011-1h6a1 1 0 011 1v1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg> Copy prompt`;
+          copyBtn.classList.remove('copied');
+        }, 1800);
+      });
+    });
+  </script>
+
+</body>
+</html>

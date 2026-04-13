@@ -1,0 +1,11 @@
+1. Generate rear elevation of the building.
+
+Note:
+
+You can ask ChatGPT to generate svg or dwg file for you further. Therefore, you can open the file with AutoCAD or Adobe Illustrator.
+
+2.Generate a rear elevation view of the building. Use clean, precise architectural linework with no annotations, no textures, and no landscape or entourage. The drawing should show accurate proportions, windows, doors, facade elements, and structural outlines as seen from the back of the building. Present the elevation on a white background in a minimal, technical style suitable for architectural documentation or concept diagrams.
+ 
+3.Turn an architecture photo into a technical architectural drawing in this style.
+
+Convert the building photo into a black-and-white architectural construction drawing with orthographic projections only. Produce clean, precise CAD-style linework showing accurate sections and elevations, including walls, floors, roof structure, foundations, and openings. Use consistent line weights, dashed lines for hidden elements, and standard architectural symbols. Add dimensions, level markers, section cuts, and material callouts where appropriate. No shading, no textures, no colors, no people, no landscape. White background. The result should look like a professional construction document or permit drawing sheet, highly accurate and technical.
